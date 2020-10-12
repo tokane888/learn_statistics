@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"learn/statistics/statistics_intro/p66_bootstrap/src/service"
 	"os"
+
+	"github.com/tokane888/learn_statistics/statistics_intro/p66_bootstrap/src/service"
 )
 
 func main() {
