@@ -44,9 +44,9 @@ func (s *BootStrapService) GetCorrelationCoefficient() float64 {
 	}
 
 	s.logger.Debug("manHeights")
-	s.logger.Debug(fmt.Sprintf("%v\n", manHeights))
+	s.logger.Debug(fmt.Sprintf("%v", manHeights))
 	s.logger.Debug("womanHeights")
-	s.logger.Debug(fmt.Sprintf("%v\n", womanHeights))
+	s.logger.Debug(fmt.Sprintf("%v", womanHeights))
 
 	return stat.Correlation(manHeights, womanHeights, nil)
 }
